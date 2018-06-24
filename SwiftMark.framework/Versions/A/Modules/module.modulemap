@@ -1,0 +1,11 @@
+framework module SwiftMark {
+  umbrella header "SwiftMark.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftMark.Swift {
+    header "SwiftMark-Swift.h"
+    requires objc
+}
